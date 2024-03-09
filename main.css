@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+header{
+    background-image: url(cookies.jpeg);
+    padding: 90px 0;
+
+    
+
+}
+h1{
+    color: antiquewhite;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    text-align: center;
+}
+nav{
+    background-color: rgb(211, 211, 117);
+    text-align: center;
+    padding: 0.70rem;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 3em;
+}
+nav ul li a {
+    text-decoration:none;
+    color: black;
+    font-size: 1.1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+
+}
+nav ul li a ::after{
+    width: 0;
+    height: 3px;
+    content: "";
+    background-color: crimson;
+    position: absolute;
+    left: 0;
+    bottom:-6px;
+    transition:0.5s;
+
+}
+nav ul li a:hover::after{
+    width: 100px;
+}
+.second{
+    padding:2em;   
+}
+h2{
+    padding: 1.5em;
+    text-align: left;
+    text-decoration: underline;
+    font-size: 1.8em;
+    font-family:sans-serif;
+    color: rgb(109, 75, 109);
+    
+}
+h3{
+    padding:1.5em;
+    padding: 1.5em;
+    text-align: left;
+    text-decoration: underline;
+    font-size: 1.8em;
+    font-family:sans-serif;
+    color: rgb(109, 75, 109);
+}
+ img{
+    border-radius: 1em;
+ }
+ #content{
+    text-align: center;
+ }
+ .container ul{
+    font-size: 1.2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    display: inline-block;
+    padding-right: 47em;
+
+ }
+ .bainer ol{
+    font-size: 1.2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 1.5em;
+    text-align: center;
+    display: inline-block;
+    padding-right: 25em;
+ }
+
+#box1{
+    padding-bottom: auto;
+    padding-top: 2em;
+    background-color: rgb(220, 220, 220);
+    margin: 2em;
+    
+    
+}
+main{
+    background-color: rgb(179, 179, 179);
+}
+#box1{
+    border-radius: 1em;
+    box-shadow: 1em 1em 2em rgb(217, 216, 216);
+
+}
+iframe{
+    margin: 1.5rem;
+}
+
+footer{
+  padding: 1.2rem;
+  background-color: rgb(211, 211, 117);
+}
+footer p{
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
